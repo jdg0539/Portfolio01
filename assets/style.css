@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+.banner{
+    height: 100vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    z-index: 1;
+}
+.first-banner{
+    padding-top: 90px;
+}
+.background{
+    background-image: url(http://demos.codexcoder.com/gentle-man/two/wp-content/uploads/sites/2/2017/04/Banner_02-1.png);
+}
+.banner .banner_content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner .banner_content h4{
+    font-family: 'Lato';
+    font-size: 36px;
+    color: #979797;
+    line-height: 42px;
+}
+.banner .banner_content h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    line-height: 90px;
+    color: #009bde;
+    text-transform: uppercase;
+}
+.banner .banner_content p{
+    font-family: 'Lato';
+    color: #0d1218;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+.banner .icons{
+    overflow: hidden;
+    margin-left: 0;
+}
+.banner .icons li{
+    list-style: none;
+    display: inline-block;
+}
+.banner .icons li a{
+    text-align: center;
+    line-height: 36px;
+    border-radius: 2px;
+    margin-right: 6px;
+    transition: .25s;
+    color: #fff;
+    height: 36px;
+    width: 36px;
+    background-color: #979797;
+    display: inline-block;
+
+}
+
+.card_banner{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+    max-width: 1170px;
+}
+
